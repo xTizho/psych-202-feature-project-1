@@ -9,6 +9,7 @@ function Navbar() {
           className="navbar-link"
           href={process.env.PUBLIC_URL + "/data/Reflection.pdf"}
           target="_blank"
+          rel="noreferrer"
         >
           Reflection
         </a>
@@ -16,6 +17,7 @@ function Navbar() {
           className="navbar-link"
           href={process.env.PUBLIC_URL + "/data/References.pdf"}
           target="_blank"
+          rel="noreferrer"
         >
           References
         </a>
